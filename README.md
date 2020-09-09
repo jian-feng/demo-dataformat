@@ -40,15 +40,21 @@ Sample output of unit test:
 o.a.camel.spring.SpringCamelContext - Route: dynamic-unmarshal started and consuming from: direct://dynamic-unmarshal
 o.a.camel.spring.SpringCamelContext - Route: dynamic-marshal started and consuming from: direct://dynamic-marshal
 o.a.camel.spring.SpringCamelContext - Total 2 routes, of which 2 are started
-o.a.camel.spring.SpringCamelContext - Apache Camel 2.23.2.fuse-760030-redhat-00001 (CamelContext: camel-context) started in 0.250 seconds
-com.redhat.sample.CamelRouteUnitTest - response is com.redhat.sample.Request@22791b75
-com.redhat.sample.CamelRouteUnitTest - ********************************************************************************
-com.redhat.sample.CamelRouteUnitTest - Testing done: testDynamicUnmarshal(com.redhat.sample.CamelRouteUnitTest)
-com.redhat.sample.CamelRouteUnitTest - Took: 0.281 seconds (281 millis)
-com.redhat.sample.CamelRouteUnitTest - ********************************************************************************
+o.a.camel.spring.SpringCamelContext - Apache Camel 2.23.2.fuse-760030-redhat-00001 (CamelContext: camel-context) started in 0.256 seconds
 com.redhat.sample.CamelRouteUnitTest - response is {"field1":"AAA","field2":"111"}
 com.redhat.sample.CamelRouteUnitTest - ********************************************************************************
 com.redhat.sample.CamelRouteUnitTest - Testing done: testDynamicMarshal(com.redhat.sample.CamelRouteUnitTest)
-com.redhat.sample.CamelRouteUnitTest - Took: 0.029 seconds (29 millis)
+com.redhat.sample.CamelRouteUnitTest - Took: 0.318 seconds (318 millis)
+com.redhat.sample.CamelRouteUnitTest - ********************************************************************************
+com.redhat.sample.CamelRouteUnitTest - response is com.redhat.sample.Request@578c3fd9
+com.redhat.sample.CamelRouteUnitTest - ********************************************************************************
+com.redhat.sample.CamelRouteUnitTest - Testing done: testDynamicUnmarshal(com.redhat.sample.CamelRouteUnitTest)
+com.redhat.sample.CamelRouteUnitTest - Took: 0.013 seconds (13 millis)
+com.redhat.sample.CamelRouteUnitTest - ********************************************************************************
+com.redhat.sample.CamelRouteUnitTest - Testing done: testPerformace10000(com.redhat.sample.CamelRouteUnitTest)
+com.redhat.sample.CamelRouteUnitTest - Took: 1.563 seconds (1563 millis)
+com.redhat.sample.CamelRouteUnitTest - ********************************************************************************
+com.redhat.sample.CamelRouteUnitTest - Testing done: testPerformace100000(com.redhat.sample.CamelRouteUnitTest)
+com.redhat.sample.CamelRouteUnitTest - Took: 4.007 seconds (4007 millis)
 com.redhat.sample.CamelRouteUnitTest - ********************************************************************************
 ```
