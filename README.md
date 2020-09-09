@@ -13,7 +13,7 @@ Step 1. Define dataformat bean as many as you neeed
 </bean>
 ```
 
-Step 2. Use <toD> and [Simple language][2] to call [DataFormat] component
+Step 2. Use [toD][2] and [Simple language][3] to call [DataFormat][1] component
 
 ```xml
 <toD uri="dataformat:${header.dataformat_name}:unmarshal"/>
@@ -21,7 +21,8 @@ Step 2. Use <toD> and [Simple language][2] to call [DataFormat] component
 <toD uri="dataformat:${header.dataformat_name}:marshal"/>
 ``` 
 
-[2]: https://camel.apache.org/components/latest/languages/simple-language.html
+[2]: https://camel.apache.org/components/latest/eips/toD-eip.html
+[3]: https://camel.apache.org/components/latest/languages/simple-language.html
 
 
 ## How to run
