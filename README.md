@@ -4,6 +4,10 @@ Demostrate how to use Camel [DataFormat][1] component for Dynamic Marshal/Unmars
 
 [1]: https://camel.apache.org/components/latest/dataformat-component.html
 
+> If you prefer a customer java processor to do dynamic marshal/unmarshal, there is [another solution][4] for you.
+
+[4]: https://github.com/jian-feng/demo-dataformat2
+
 ## How to implement
 
 Step 1. Define dataformat bean as many as you neeed
